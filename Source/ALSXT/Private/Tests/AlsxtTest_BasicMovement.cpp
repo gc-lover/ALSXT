@@ -1,8 +1,11 @@
-﻿#include "AlsxtTest_BasicMovement.h"
+#include "AlsxtTest_BasicMovement.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/PlayerController.h"
 #include "Kismet/GameplayStatics.h"
 #include "Tests/AutomationCommon.h"
+
+IMPLEMENT_SIMPLE_AUTOMATION_TEST(FAlsxtTest_BasicMovement, "Project.ALSXT.Movement.MoveForward",
+	EAutomationTestFlags::EditorContext | EAutomationTestFlags::ProductFilter)
 
 // Latent command to simulate holding "Forward" for a specific duration
 DEFINE_LATENT_AUTOMATION_COMMAND_THREE_PARAMETER(FAlsxtSimulateMoveForward, ACharacter*, Character, float, Duration, float, ElapsedTime);
