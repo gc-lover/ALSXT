@@ -431,7 +431,7 @@ void AAlsxtCharacterPlayer::Input_OnJump(const FInputActionValue& ActionValue)
 			return;
 		}
 
-		if (StartMantlingGrounded())
+		if (StartMantling())
 		{
 			return;
 		}
@@ -441,7 +441,7 @@ void AAlsxtCharacterPlayer::Input_OnJump(const FInputActionValue& ActionValue)
 		{
 			FGameplayTagContainer MantlingGameplayTags;
 			MantlingGameplayTags.AddTag(FGameplayTag::RequestGameplayTag(TEXT("Gameplay.Ability.Mantle")));
-			if (ActionValue.Get<bool>() && GetAbilitySystemComponent()->TryActivateAbilitiesByTag(MantlingGameplayTags, true) && StartMantlingGrounded())
+			if (ActionValue.Get<bool>() && GetAbilitySystemComponent()->TryActivateAbilitiesByTag(MantlingGameplayTags, true) && StartMantling())
 			{
 				// OnMantle Event Dispatcher
 			}

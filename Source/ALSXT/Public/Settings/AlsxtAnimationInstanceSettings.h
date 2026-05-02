@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ALSXT/Public/Settings/AlsxtStationaryModeSettings.h"
-#include "ALS/Public/Settings/AlsFeetSettings.h"
+#include "ALS/Public/Settings/AlsFootLockSettings.h"
 #include "ALS/Public/Settings/AlsGeneralAnimationSettings.h"
 #include "ALS/Public/Settings/AlsGroundedSettings.h"
 #include "ALS/Public/Settings/AlsInAirSettings.h"
@@ -41,7 +41,7 @@ public:
 	FAlsInAirSettings InAir;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Settings")
-	FAlsFeetSettings Feet;
+	FAlsFootLockSettings FootLock;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Settings")
 	FAlsTransitionsSettings Transitions;

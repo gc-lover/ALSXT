@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ALS/Public/Settings/AlsFeetSettings.h"
+#include "ALS/Public/Settings/AlsFootLockSettings.h"
 #include "ALS/Public/Settings/AlsGeneralAnimationSettings.h"
 #include "ALS/Public/Settings/AlsGroundedSettings.h"
 #include "ALS/Public/Settings/AlsInAirSettings.h"

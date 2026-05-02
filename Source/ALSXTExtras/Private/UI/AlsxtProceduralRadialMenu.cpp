@@ -1,4 +1,4 @@
-﻿// MIT
+// MIT
 
 
 #include "UI/AlsxtProceduralRadialMenu.h"
@@ -30,7 +30,7 @@ void UAlsxtRadialMenuOption::OnUnhover()
 
 void UAlsxtRadialMenuOption::OnClick()
 {
-    UAlsxtProceduralRadialMenu* Menu = Cast<UAlsxtProceduralRadialMenu>(GetParent());
+    UAlsxtProceduralRadialMenu* Menu = GetTypedOuter<UAlsxtProceduralRadialMenu>();
     if (Menu) { /* Handle Clicked Logic */ }
 }
 

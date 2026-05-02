@@ -233,7 +233,7 @@ void UAlsxtAnimationInstance::AlsxtRefreshCrouchingMovement()
 
 	////
 
-	const auto Speed{LocomotionState.Speed / LocomotionState.Scale};
+	const auto Speed{LocomotionState.Speed / LocomotionState.ScaleWorldSpace};
 
 	// Calculate the stride blend amount. This value is used within the blend spaces to scale the stride (distance feet travel)
 	// so that the character can walk or run at different movement speeds. It also allows the walk or run gait animations to
@@ -315,7 +315,7 @@ void UAlsxtAnimationInstance::AlsxtRefreshStandingMovement()
 		return;
 	}
 
-	const auto Speed{LocomotionState.Speed / LocomotionState.Scale};
+	const auto Speed{LocomotionState.Speed / LocomotionState.ScaleWorldSpace};
 
 	// Calculate the stride blend amount. This value is used within the blend spaces to scale the stride (distance feet travel)
 	// so that the character can walk or run at different movement speeds. It also allows the walk or run gait animations to
@@ -414,12 +414,13 @@ void UAlsxtAnimationInstance::AlsxtRefreshDynamicTransitions()
 	// exceeds a threshold. If it does, play an additive transition animation on that foot. The currently set
 	// transition plays the second half of a 2 foot transition animation, so that only a single foot moves.
 
-	const auto FootLockDistanceThresholdSquared{
-		FMath::Square(Settings->DynamicTransitions.FootLockDistanceThreshold * LocomotionState.Scale)
+	const auto FootLockDistanceThresholdSquared
+	{
+		FMath::Square(Settings->DynamicTransitions.FootLockDistanceThreshold * LocomotionState.ScaleWorldSpace)
 	};
 
-	const auto FootLockLeftDistanceSquared{FVector::DistSquared(FeetState.Left.TargetLocation, FeetState.Left.LockLocation)};
-	const auto FootLockRightDistanceSquared{FVector::DistSquared(FeetState.Right.TargetLocation, FeetState.Right.LockLocation)};
+	const auto FootLockLeftDistanceSquared{FVector::DistSquared(FeetState.Left.TargetLocationWorldSpace, FeetState.Left.LockLocationWorldSpace)};
+	const auto FootLockRightDistanceSquared{FVector::DistSquared(FeetState.Right.TargetLocationWorldSpace, FeetState.Right.LockLocationWorldSpace)};
 
 	const auto bTransitionLeftAllowed{
 		FAnimWeight::IsRelevant(FeetState.Left.LockAmount) && FootLockLeftDistanceSquared > FootLockDistanceThresholdSquared
@@ -623,7 +624,7 @@ FVector2f UAlsxtAnimationInstance::GetAlsxtRelativeAccelerationAmount() const
 	// braking deceleration and 1 equals the max acceleration of the character movement component.
 
 	const auto MaxAcceleration{
-		(LocomotionState.Acceleration | LocomotionState.Velocity) >= 0.0f
+		(LocomotionState.AccelerationWorldSpace | LocomotionState.VelocityWorldSpace) >= 0.0f
 			? LocomotionState.MaxAcceleration
 			: LocomotionState.MaxBrakingDeceleration
 	};
@@ -633,7 +634,7 @@ FVector2f UAlsxtAnimationInstance::GetAlsxtRelativeAccelerationAmount() const
 		return FVector2f::ZeroVector;
 	}
 
-	const FVector3f RelativeAcceleration{LocomotionState.RotationQuaternion.UnrotateVector(LocomotionState.Acceleration)};
+	const FVector3f RelativeAcceleration{LocomotionState.RotationQuaternionWorldSpace.UnrotateVector(LocomotionState.AccelerationWorldSpace)};
 
 	return FVector2f{UAlsVector::ClampMagnitude01(RelativeAcceleration / MaxAcceleration)};
 }

@@ -108,8 +108,7 @@ void UAlsxtAnimationModifier_ExtractRecoilCurves::ExtractAnimCurves(UAnimSequenc
 
 	UE::Anim::FCurveFilterSettings BoneFilterSettings;
 	BoneFilterSettings.FilterMode = UE::Anim::ECurveFilterMode::AllowOnlyFiltered;
-	FBoneContainer BoneContainer(RequiredBones, false, *Skeleton);
-	FBoneContainer BoneContainerNew(RequiredBones, BoneFilterSettings, *Skeleton);
+	FBoneContainer BoneContainer(RequiredBones, BoneFilterSettings, *Skeleton);
 	const FCompactPoseBoneIndex CompactPoseBoneIndex = BoneContainer.
 		MakeCompactPoseIndex(FMeshPoseBoneIndex(BoneIndex));
 
@@ -270,7 +269,8 @@ void UAlsxtAnimationModifier_ExtractRecoilCurves::ExtractCurveAssets(UAnimSequen
 	RequiredBones.Add(BoneIndex);
 	Skeleton->GetReferenceSkeleton().EnsureParentsExistAndSort(RequiredBones);
 
-	FBoneContainer BoneContainer(RequiredBones, false, *Skeleton);
+	UE::Anim::FCurveFilterSettings BoneFilterSettings;
+	FBoneContainer BoneContainer(RequiredBones, BoneFilterSettings, *Skeleton);
 	const FCompactPoseBoneIndex CompactPoseBoneIndex = BoneContainer.
 		MakeCompactPoseIndex(FMeshPoseBoneIndex(BoneIndex));
 

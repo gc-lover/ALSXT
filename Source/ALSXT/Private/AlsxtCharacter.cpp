@@ -1291,7 +1291,7 @@ void AAlsxtCharacter::InputJump(const FInputActionValue& ActionValue)
 					{
 						return;
 					}
-					if (StartMantlingGrounded())
+					if (StartMantling())
 					{
 						return;
 					}
@@ -1465,7 +1465,7 @@ void AAlsxtCharacter::InputRoll()
 	static constexpr auto PlayRate{ 1.3f };
 	if(CanRoll() && bMovementEnabled)
 	{
-		StartRolling(PlayRate);
+		StartRollingGrounded(PlayRate);
 	}
 }
 
@@ -4369,7 +4369,7 @@ bool AAlsxtCharacter::GetCharacterCanRoll_Implementation() const
 
 void AAlsxtCharacter::StartCharacterRoll_Implementation(float PlayRate)
 {
-	StartRolling(PlayRate);
+	StartRollingGrounded(PlayRate);
 }
 
 bool AAlsxtCharacter::CanCharacterSprint_Implementation() const
