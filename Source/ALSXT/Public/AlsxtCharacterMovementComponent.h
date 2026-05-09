@@ -22,6 +22,7 @@ enum ECustomMovementMode
 	CMOVE_WallRun		UMETA(DisplayName = "Wall Run"),
 	CMOVE_Ladder		UMETA(DisplayName = "Ladder"),
 	CMOVE_Zipline		UMETA(DisplayName = "Zipline"),
+	CMOVE_RailGrind		UMETA(DisplayName = "Rail Grind"),
 	CMOVE_MAX			UMETA(Hidden),
 };
 
