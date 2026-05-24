@@ -11,15 +11,6 @@
 
 UAlsxtGameplayAbilityMeleeAttack::UAlsxtGameplayAbilityMeleeAttack()
 {
-	// Create Wait Task for Melee Attack Trace Begin Event Tag
-	UAbilityTask_WaitGameplayEvent* OnMeleeCollisionTraceBeginWaitTask = UAbilityTask_WaitGameplayEvent::WaitGameplayEvent(this, FGameplayTag::RequestGameplayTag("Event.Trace.Melee.Begin"));
-	OnMeleeCollisionTraceBeginWaitTask->EventReceived.AddDynamic(this, &UAlsxtGameplayAbilityMeleeAttack::OnMeleeCollisionTraceBeginEventReceived);
-	OnMeleeCollisionTraceBeginWaitTask->ReadyForActivation();
-
-	// Create Wait Task for Melee Attack Trace End Event Tag
-	UAbilityTask_WaitGameplayEvent* OnMeleeCollisionTraceEndWaitTask = UAbilityTask_WaitGameplayEvent::WaitGameplayEvent(this, FGameplayTag::RequestGameplayTag("Event.Trace.Melee.End"));
-	OnMeleeCollisionTraceEndWaitTask->EventReceived.AddDynamic(this, &UAlsxtGameplayAbilityMeleeAttack::OnMeleeCollisionTraceEndEventReceived);
-	OnMeleeCollisionTraceEndWaitTask->ReadyForActivation();
 }
 
 bool UAlsxtGameplayAbilityMeleeAttack::CanActivateAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo,
@@ -75,6 +66,22 @@ void UAlsxtGameplayAbilityMeleeAttack::ActivateAbility(const FGameplayAbilitySpe
 	const FGameplayAbilityActivationInfo ActivationInfo, const FGameplayEventData* TriggerEventData)
 {
 	Super::ActivateAbility(Handle, ActorInfo, ActivationInfo, TriggerEventData);
+
+	// Create Wait Task for Melee Attack Trace Begin Event Tag
+	UAbilityTask_WaitGameplayEvent* OnMeleeCollisionTraceBeginWaitTask = UAbilityTask_WaitGameplayEvent::WaitGameplayEvent(this, FGameplayTag::RequestGameplayTag("Event.Trace.Melee.Begin"));
+	if (OnMeleeCollisionTraceBeginWaitTask)
+	{
+		OnMeleeCollisionTraceBeginWaitTask->EventReceived.AddDynamic(this, &UAlsxtGameplayAbilityMeleeAttack::OnMeleeCollisionTraceBeginEventReceived);
+		OnMeleeCollisionTraceBeginWaitTask->ReadyForActivation();
+	}
+
+	// Create Wait Task for Melee Attack Trace End Event Tag
+	UAbilityTask_WaitGameplayEvent* OnMeleeCollisionTraceEndWaitTask = UAbilityTask_WaitGameplayEvent::WaitGameplayEvent(this, FGameplayTag::RequestGameplayTag("Event.Trace.Melee.End"));
+	if (OnMeleeCollisionTraceEndWaitTask)
+	{
+		OnMeleeCollisionTraceEndWaitTask->EventReceived.AddDynamic(this, &UAlsxtGameplayAbilityMeleeAttack::OnMeleeCollisionTraceEndEventReceived);
+		OnMeleeCollisionTraceEndWaitTask->ReadyForActivation();
+	}
 }
 
 void UAlsxtGameplayAbilityMeleeAttack::EndAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo,
