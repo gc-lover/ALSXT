@@ -10,6 +10,8 @@
 #include "AlsxtEquipmentSettings.generated.h"
 
 struct FAlsxtMovementCameraShakeSettings;
+class UAlsxtPaintableSkeletalMeshComponent;
+class UAlsxtPaintableStaticMeshComponent;
 
 USTRUCT(BlueprintType)
 struct ALSXT_API FAlsxtEquipmentSettings

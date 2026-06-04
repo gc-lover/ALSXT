@@ -9,12 +9,12 @@
 #include "Utility/AlsxtOverlayStructs.h"
 #include "Settings/AlsxtCameraEffectsSettings.h"
 #include "Chooser.h"
-#include "Components/Mesh/AlsxtPaintableSkeletalMeshComponent.h"
-#include "Components/Mesh/AlsxtPaintableStaticMeshComponent.h"
 #include "AlsxtOverlayObjectSettings.generated.h"
 
 class UChooserTable;
 struct FAlsxtMovementCameraShakeSettings;
+class UAlsxtPaintableSkeletalMeshComponent;
+class UAlsxtPaintableStaticMeshComponent;
 
 UCLASS()
 class ALSXT_API UAlsxtGeneralOverlayObjectSettingsDataAsset: public UDataAsset
