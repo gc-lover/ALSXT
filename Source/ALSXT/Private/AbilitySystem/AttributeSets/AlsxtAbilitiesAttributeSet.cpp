@@ -2,6 +2,7 @@
 
 #include "GameplayEffectExtension.h"
 #include "Net/UnrealNetwork.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAbilitiesAttributeSet)
 
 float UAlsxtAbilitiesAttributeSet::COOLDOWN_MULTIPLIER_MIN = 0.1f;
 float UAlsxtAbilitiesAttributeSet::COOLDOWN_MULTIPLIER_MAX = 2.f;

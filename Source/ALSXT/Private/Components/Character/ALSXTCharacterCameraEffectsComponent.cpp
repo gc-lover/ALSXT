@@ -7,6 +7,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Curves/CurveVector.h"
 #include "Math/UnrealMathUtility.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSXTCharacterCameraEffectsComponent)
 
 // Sets default values for this component's properties
 UAlsxtCharacterCameraEffectsComponent::UAlsxtCharacterCameraEffectsComponent()

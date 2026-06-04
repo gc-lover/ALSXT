@@ -2,6 +2,7 @@
 
 
 #include "Components/Character/AlsxtVaultingComponent.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtVaultingComponent)
 
 
 // Sets default values for this component's properties

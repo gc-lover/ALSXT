@@ -10,6 +10,7 @@
 #include "NiagaraFunctionLibrary.h"
 #include "NiagaraComponent.h"
 #include "Net/UnrealNetwork.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSXTCharacterSoundComponent)
 
 // Sets default values for this component's properties
 UAlsxtCharacterSoundComponent::UAlsxtCharacterSoundComponent()

@@ -7,6 +7,7 @@
 #include "AbilitySystem/AttributeSets/AlsxtHealthAttributeSet.h"
 #include "AbilitySystem/AttributeSets/AlsxtResistanceAttributeSet.h"
 #include "AbilitySystem/Data/AlsxtAbilitySystemData.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAbilitySystemBlueprintLibrary)
 
 
 AActor* UCustomAbilitySystemBlueprintLibrary::GetInstigatorFromGameplayEffectSpec(const FGameplayEffectSpec& Spec)

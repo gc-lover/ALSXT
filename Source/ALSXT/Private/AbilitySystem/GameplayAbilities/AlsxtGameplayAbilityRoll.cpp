@@ -5,6 +5,7 @@
 
 #include "AlsxtCharacter.h"
 #include "AbilitySystem/AttributeSets/AlsxtStaminaAttributeSet.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityRoll)
 
 
 UAlsxtGameplayAbilityRoll::UAlsxtGameplayAbilityRoll()

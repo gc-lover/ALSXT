@@ -47,6 +47,7 @@
 #include "AbilitySystem/Data/AlsxtGASGameplayTags.h"
 #include "Settings/AlsxtOverlayLookupTableDataAsset.h"
 #include "Utility/AlsxtOverlayGameplayTags.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtCharacter)
 
 void AAlsxtCharacter::ServerSetDesiredStance_Implementation(FGameplayTag NewDesiredStance)
 {

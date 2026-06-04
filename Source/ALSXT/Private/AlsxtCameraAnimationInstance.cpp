@@ -5,6 +5,7 @@
 #include "AlsCameraComponent.h"
 #include "AlsCharacter.h"
 #include "AlsxtCharacter.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtCameraAnimationInstance)
 
 void UAlsxtCameraAnimationInstance::NativeBeginPlay()
 {

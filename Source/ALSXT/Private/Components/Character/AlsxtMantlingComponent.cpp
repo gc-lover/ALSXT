@@ -2,6 +2,7 @@
 
 
 #include "Components/Character/AlsxtMantlingComponent.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtMantlingComponent)
 
 
 // Sets default values for this component's properties

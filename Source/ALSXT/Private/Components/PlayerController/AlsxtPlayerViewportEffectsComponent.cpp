@@ -8,6 +8,7 @@
 #include "Math/UnrealMathUtility.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Curves/CurveVector.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtPlayerViewportEffectsComponent)
 
 // Sets default values for this component's properties
 UAlsxtPlayerViewportEffectsComponent::UAlsxtPlayerViewportEffectsComponent()

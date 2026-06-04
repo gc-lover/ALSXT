@@ -5,6 +5,7 @@
 
 #include "AlsxtCharacter.h"
 #include "Utility/AlsxtGameplayTags.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilitySwitchCombatStance)
 
 
 UAlsxtGameplayAbilitySwitchCombatStance::UAlsxtGameplayAbilitySwitchCombatStance()

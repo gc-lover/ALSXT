@@ -8,6 +8,7 @@
 #include "Settings/AlsxtCharacterSettings.h"
 #include "Utility/AlsMacros.h"
 #include "Utility/AlsRotation.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtSlidingActionComponent)
 
 // Sets default values for this component's properties
 UAlsxtSlidingActionComponent::UAlsxtSlidingActionComponent()

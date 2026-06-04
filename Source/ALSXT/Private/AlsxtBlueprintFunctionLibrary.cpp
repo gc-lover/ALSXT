@@ -8,6 +8,7 @@
 #include "Interfaces/AlsxtControllerRenderInterface.h"
 #include "Utility/AlsxtOverlayStructs.h"
 #include "Utility/AlsxtGameplayTags.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtBlueprintFunctionLibrary)
 
 FQuat UAlsxtBlueprintFunctionLibrary::ConvertEulerToQuaternion(FRotator CurrentRotation)
 {

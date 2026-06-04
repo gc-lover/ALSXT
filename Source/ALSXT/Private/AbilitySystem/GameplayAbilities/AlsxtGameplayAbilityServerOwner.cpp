@@ -1,10 +1,11 @@
-﻿// MIT
+// MIT
 
 
 #include "AbilitySystem/GameplayAbilities/AlsxtGameplayAbilityServerOwner.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemBlueprintLibrary.h"
 #include "GameplayEffectExtension.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityServerOwner)
 
 UAlsxtGameplayAbilityServerOwner::UAlsxtGameplayAbilityServerOwner()
 {

@@ -23,6 +23,7 @@
 #include "Interfaces/AlsxtCharacterInterface.h"
 #include "Math/UnrealMathUtility.h"
 #include "Utility/AlsDebugUtility.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAnimNotify_FootstepEffects)
 
 FString UAlsxtAnimNotify_FootstepEffects::GetNotifyName_Implementation() const
 {

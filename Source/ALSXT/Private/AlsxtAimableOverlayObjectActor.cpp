@@ -1,7 +1,8 @@
-﻿// MIT
+// MIT
 
 
 #include "AlsxtAimableOverlayObjectActor.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAimableOverlayObjectActor)
 
 
 // Sets default values

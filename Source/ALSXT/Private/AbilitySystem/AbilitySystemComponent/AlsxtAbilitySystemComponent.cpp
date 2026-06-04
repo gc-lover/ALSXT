@@ -7,6 +7,7 @@
 #include "AbilitySystem/Data/AlsxtGASGameplayTags.h"
 #include "AbilitySystem/FunctionLibrary/AlsxtAbilitySystemBlueprintLibrary.h"
 #include "AbilitySystem/Character/GASDemoCharacterBase.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAbilitySystemComponent)
 
 // void UAlsxtAbilitySystemComponent::InitAbilityActorInfo(AActor* InOwnerActor, AActor* InAvatarActor)
 // {

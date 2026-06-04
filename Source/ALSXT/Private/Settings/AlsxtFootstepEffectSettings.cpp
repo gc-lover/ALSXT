@@ -1,1 +1,2 @@
-﻿#include "Settings/AlsxtFootstepEffectSettings.h"
+#include "Settings/AlsxtFootstepEffectSettings.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtFootstepEffectSettings)

@@ -6,6 +6,7 @@
 #include "Utility/AlsxtGameplayTags.h"
 #include "AlsxtAnimationInstance.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSXTAcrobaticActionComponent)
 
 // Sets default values for this component's properties
 UAlsxtAcrobaticActionComponent::UAlsxtAcrobaticActionComponent()

@@ -1,7 +1,8 @@
-﻿#include "AbilitySystem/Calculations/AlsxtGeecHoldingBreathDuration.h"
+#include "AbilitySystem/Calculations/AlsxtGeecHoldingBreathDuration.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystem/AttributeSets//AlsxtHoldBreathAttributeSet.h"
 #include "AbilitySystem/AttributeSets//AlsxtStaminaAttributeSet.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGeecHoldingBreathDuration)
 
 // Set up attribute capture definitions. These are used to specify which attributes the execution calculation needs.
 struct FAlsxtHoldingBreathDurationStatics

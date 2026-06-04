@@ -6,6 +6,7 @@
 #include "Settings/AlsxtCharacterSettings.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Kismet/KismetRenderingLibrary.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtPaintableStaticMeshComponent)
 
 UAlsxtPaintableStaticMeshComponent::UAlsxtPaintableStaticMeshComponent()
 {

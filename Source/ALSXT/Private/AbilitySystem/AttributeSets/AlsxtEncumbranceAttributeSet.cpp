@@ -4,6 +4,7 @@
 #include "AbilitySystem/AttributeSets/AlsxtEncumbranceAttributeSet.h"
 #include "GameplayEffectExtension.h"
 #include "Net/UnrealNetwork.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtEncumbranceAttributeSet)
 
 float UAlsxtEncumbranceAttributeSet::Encumbrance_BASE = 100.f; 
 float UAlsxtEncumbranceAttributeSet::Encumbrance_MAX = 200.f; // 3 times the base armor.

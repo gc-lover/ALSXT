@@ -8,6 +8,7 @@
 #include "Interfaces/AlsxtCharacterInterface.h"
 #include "Interfaces/AlsxtCharacterSoundComponentInterface.h"
 #include "NiagaraFunctionLibrary.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAnimNotify_CharacterBreathEffects)
 
 FString UAlsxtAnimNotify_CharacterBreathEffects::GetNotifyName_Implementation() const
 {

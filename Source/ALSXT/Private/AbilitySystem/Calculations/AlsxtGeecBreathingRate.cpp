@@ -8,6 +8,7 @@
 #include "AlsCharacter.h"
 #include "AlsxtCharacter.h"
 #include "Chaos/PBDSuspensionConstraintData.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGeecBreathingRate)
 
 // Define the attribute capture macro. This helps ensure proper attribute access.
 // DEFINE_ATTRIBUTE_CAPTUREDEF(UAlsxtStaminaAttributeSet, CurrentStamina, Target, false);

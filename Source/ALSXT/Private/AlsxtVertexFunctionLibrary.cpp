@@ -11,6 +11,7 @@
 #include "Rendering/StaticMeshVertexBuffer.h"
 
 #include "RawMesh.h" // For accessing FRawMeshVertexData
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtVertexFunctionLibrary)
 
 int32 UAlsxtVertexFunctionLibrary::GetClosestVertexIDFromStaticMesh(UStaticMeshComponent* StaticMeshComponent, const FVector& WorldLocation)
 {

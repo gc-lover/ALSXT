@@ -1,9 +1,10 @@
-﻿// MIT
+// MIT
 
 
 #include "AbilitySystem/GameplayAbilities/AlsxtGameplayAbilityMovement.h"
 
 #include "AbilitySystem/AttributeSets/AlsxtMovementAttributeSet.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityMovement)
 
 UAlsxtGameplayAbilityMovement::UAlsxtGameplayAbilityMovement()
 {

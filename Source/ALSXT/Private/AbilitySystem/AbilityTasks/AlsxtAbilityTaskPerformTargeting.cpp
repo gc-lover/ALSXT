@@ -1,4 +1,4 @@
-﻿// MIT
+// MIT
 
 #include "AbilitySystem/AbilityTasks/AlsxtAbilityTaskPerformTargeting.h"
 #include "AbilitySystemComponent.h"
@@ -6,6 +6,7 @@
 #include "Abilities/GameplayAbilityTargetTypes.h"
 #include "DrawDebugHelpers.h"
 #include "Engine/World.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAbilityTaskPerformTargeting)
 
 UAlsxtAbilityTaskPerformTargeting::UAlsxtAbilityTaskPerformTargeting(const FObjectInitializer& ObjectInitializer)
     : Super(ObjectInitializer)

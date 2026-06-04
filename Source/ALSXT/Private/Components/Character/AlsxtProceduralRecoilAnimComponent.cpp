@@ -15,6 +15,7 @@
 #include "Engine/World.h"
 #include "Interfaces/AlsxtCharacterInterface.h"
 #include "Interfaces/AlsxtFirearmInterface.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtProceduralRecoilAnimComponent)
 
 DEFINE_LOG_CATEGORY(LogAlsxtProceduralRecoil);
 

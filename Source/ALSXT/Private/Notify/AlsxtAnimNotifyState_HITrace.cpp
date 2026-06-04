@@ -8,6 +8,7 @@
 #include "Interfaces/AlsxtCombatInterface.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Utility/AlsUtility.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAnimNotifyState_HITrace)
 
 UAlsxtAnimNotifyState_HITrace::UAlsxtAnimNotifyState_HITrace()
 {

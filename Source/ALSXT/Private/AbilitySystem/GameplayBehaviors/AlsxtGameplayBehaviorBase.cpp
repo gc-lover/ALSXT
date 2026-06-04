@@ -5,6 +5,7 @@
 
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemInterface.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayBehaviorBase)
 
 
 bool UAlsxtGameplayBehaviorBase::Trigger(AActor& Avatar, const UGameplayBehaviorConfig* Config, AActor* SmartObjectOwner)

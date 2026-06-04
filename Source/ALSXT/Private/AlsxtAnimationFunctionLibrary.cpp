@@ -1,4 +1,4 @@
-﻿// MIT
+// MIT
 
 #include "AlsxtAnimationFunctionLibrary.h"
 
@@ -8,6 +8,7 @@
 #include "Runtime/AnimGraphRuntime/Public/AnimationStateMachineLibrary.h"
 #include "Runtime/Engine/Classes/Animation/AnimExecutionContext.h"
 #include "Runtime/Engine/Classes/Animation/AnimNode_StateMachine.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAnimationFunctionLibrary)
 
 
 void UAlsxtAnimationFunctionLibrary::AlsxtRefreshStandingMovement(const FAnimUpdateContext& UpdateContext, const FAnimationStateMachineReference& Node)

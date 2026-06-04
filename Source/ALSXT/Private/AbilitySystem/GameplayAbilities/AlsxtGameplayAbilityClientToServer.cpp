@@ -3,6 +3,7 @@
 #include "AbilitySystem/GameplayAbilities/AlsxtGameplayAbilityClientToServer.h"
 #include "GameFramework/Character.h"
 #include "AbilitySystemComponent.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityClientToServer)
 
 void UAlsxtGameplayAbilityClientToServer::ActivateLocalPlayerAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* OwnerInfo, const FGameplayAbilityActivationInfo ActivationInfo, const FGameplayEventData* TriggerEventData)
 {

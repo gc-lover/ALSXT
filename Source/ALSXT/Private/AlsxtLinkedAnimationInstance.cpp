@@ -9,6 +9,7 @@
 #include "Utility/AlsMacros.h"
 #include "Settings/AlsxtLocomotionAnimationAssetsSettings.h"
 #include "ChooserFunctionLibrary.h" 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtLinkedAnimationInstance)
 
 UAlsxtLinkedAnimationInstance::UAlsxtLinkedAnimationInstance()
 {

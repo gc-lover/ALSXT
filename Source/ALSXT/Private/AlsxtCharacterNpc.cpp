@@ -1,4 +1,4 @@
-﻿// Copyright (C) 2026 Uriel Ballinas, VOIDWARE Prohibited. All rights reserved.
+// Copyright (C) 2026 Uriel Ballinas, VOIDWARE Prohibited. All rights reserved.
 // This software is licensed under the MIT License (LICENSE.md).
 
 #include "AlsxtCharacterNpc.h"
@@ -6,6 +6,7 @@
 #include "AbilitySystem/AbilitySystemComponent/AlsxtAbilitySystemComponent.h"
 #include "AbilitySystem/AttributeSets/AlsxtMovementAttributeSet.h"
 #include "Components/Character/AlsxtCharacterCustomizationComponent.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtCharacterNpc)
 
 /**
 * @file AlsxtCharacterNpc.cpp

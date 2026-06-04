@@ -10,6 +10,7 @@
 #include "Settings/AlsxtCombatSettings.h"
 #include "Utility/AlsMacros.h"
 #include "Interfaces/AlsxtCombatInterface.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtRootMotionSource_CombatAttack)
 
 FAlsxtRootMotionSource_CombatAttack::FAlsxtRootMotionSource_CombatAttack()
 {

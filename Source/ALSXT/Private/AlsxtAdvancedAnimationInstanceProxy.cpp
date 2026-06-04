@@ -2,6 +2,7 @@
 #include "AlsxtAnimationInstanceProxy.h"
 #include "AlsxtAdvancedAnimationInstance.h"
 #include "AlsxtAnimationInstance.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAdvancedAnimationInstanceProxy)
 
 FAlsxtAdvancedAnimationInstanceProxy::FAlsxtAdvancedAnimationInstanceProxy(UAnimInstance* AnimationInstance): FAlsxtAnimationInstanceProxy{AnimationInstance} {}
 

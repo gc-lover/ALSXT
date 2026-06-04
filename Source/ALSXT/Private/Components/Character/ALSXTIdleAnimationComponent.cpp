@@ -5,6 +5,7 @@
 #include "Interfaces/AlsxtCharacterInterface.h"
 #include "Interfaces/AlsxtIdleAnimationComponentInterface.h"
 #include "AlsxtAnimationInstance.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSXTIdleAnimationComponent)
 
 // Sets default values for this component's properties
 UAlsxtIdleAnimationComponent::UAlsxtIdleAnimationComponent()

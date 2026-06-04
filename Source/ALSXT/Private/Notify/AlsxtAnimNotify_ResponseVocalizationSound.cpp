@@ -5,6 +5,7 @@
 #include "AlsxtAnimationInstance.h"
 #include "AlsxtCharacter.h"
 #include "Interfaces/AlsxtCharacterInterface.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAnimNotify_ResponseVocalizationSound)
 
 FString UAlsxtAnimNotify_ResponseVocalizationSound::GetNotifyName_Implementation() const
 {

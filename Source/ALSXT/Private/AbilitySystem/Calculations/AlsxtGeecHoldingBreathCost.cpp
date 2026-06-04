@@ -1,8 +1,9 @@
-﻿#include "AbilitySystem/Calculations/AlsxtGeecHoldingBreathCost.h"
+#include "AbilitySystem/Calculations/AlsxtGeecHoldingBreathCost.h"
 #include "AbilitySystem/AttributeSets/AlsxtStaminaAttributeSet.h"
 #include "AbilitySystem/AttributeSets/AlsxtHoldBreathAttributeSet.h"
 #include "AbilitySystem/AbilitySystemComponent/AlsxtAbilitySystemComponent.h"
 #include "AbilitySystemComponent.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGeecHoldingBreathCost)
 
 static const FALSXTExecutionCalculationStaminaAndHoldBreathStatics& GetStaminaAndHoldBreathStatics()
 {

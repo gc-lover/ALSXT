@@ -14,6 +14,7 @@
 #include "Utility/AlsEnumUtility.h"
 #include "Utility/AlsMacros.h"
 #include "Utility/AlsMath.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAnimNotify_HandPlantEffects)
 
 #if WITH_EDITOR
 void FALSXTHandPlantEffectSettings::PostEditChangeProperty(const FPropertyChangedEvent& ChangedEvent)

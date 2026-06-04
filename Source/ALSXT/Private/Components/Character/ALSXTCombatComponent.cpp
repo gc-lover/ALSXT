@@ -22,6 +22,7 @@
 #include "Interfaces/AlsxtCharacterCustomizationComponentInterface.h"
 #include "AlsxtBlueprintFunctionLibrary.h"
 #include "Landscape.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSXTCombatComponent)
 
 // Sets default values for this component's properties
 UAlsxtCombatComponent::UAlsxtCombatComponent()

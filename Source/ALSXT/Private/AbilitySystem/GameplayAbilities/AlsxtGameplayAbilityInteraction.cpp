@@ -1,4 +1,4 @@
-﻿// MIT
+// MIT
 
 
 #include "AbilitySystem/GameplayAbilities/AlsxtGameplayAbilityInteraction.h"
@@ -9,6 +9,7 @@
 #include "GameplayBehaviorSubsystem.h"
 #include "Abilities/GameplayAbility.h"
 #include "SmartObjectBlueprintFunctionLibrary.h" // For MarkSlotAsOccupied
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityInteraction)
 
 
 UAlsxtGameplayAbilityInteraction::UAlsxtGameplayAbilityInteraction()

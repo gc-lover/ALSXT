@@ -6,6 +6,7 @@
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemInterface.h"
 #include "GameplayTagContainer.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(TargetingFilterTask_GameplayTag)
 
 
 UTargetingFilterTask_GameplayTag::UTargetingFilterTask_GameplayTag(const FObjectInitializer& ObjectInitializer)

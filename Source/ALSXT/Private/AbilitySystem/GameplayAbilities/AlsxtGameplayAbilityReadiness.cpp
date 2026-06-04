@@ -8,6 +8,7 @@
 #include "AlsxtCharacter.h"
 #include "Kismet/GameplayStatics.h"
 #include "Abilities/Tasks/AbilityTask_WaitInputRelease.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityReadiness)
 
 class UAlsxtAbilityTaskWaitEnhancedInputEvent;
 

@@ -1,4 +1,5 @@
 #include "Settings/AlsxtSurfaceMovementSettings.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtSurfaceMovementSettings)
 
 #if WITH_EDITOR
 void UAlsxtSurfaceMovementSettingsAsset::PostEditChangeProperty(FPropertyChangedEvent& ChangedEvent)

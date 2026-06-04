@@ -3,6 +3,7 @@
 
 #include "Components/Character/AlsxtCharacterCustomizationComponent.h"
 #include "Components/Mesh/AlsxtPaintableSkeletalMeshComponent.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSXTCharacterCustomizationComponent)
 
 // Sets default values for this component's properties
 UAlsxtCharacterCustomizationComponent::UAlsxtCharacterCustomizationComponent()

@@ -1,8 +1,9 @@
-﻿#include "AbilitySystem/GameplayEffects/AlsxtGameplayEffectHoldBreathDuration.h"
+#include "AbilitySystem/GameplayEffects/AlsxtGameplayEffectHoldBreathDuration.h"
 
 #include "AbilitySystem/AttributeSets/AlsxtHoldBreathAttributeSet.h"
 #include "GameplayEffectExecutionCalculation.h"
 #include "AbilitySystem/Calculations/AlsxtGeecBreathingRate.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayEffectHoldBreathDuration)
 
 
 UAlsxtGameplayEffectHoldBreathDuration::UAlsxtGameplayEffectHoldBreathDuration()

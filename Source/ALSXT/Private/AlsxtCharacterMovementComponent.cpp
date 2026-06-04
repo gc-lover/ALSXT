@@ -7,6 +7,7 @@
 #include "Utility/AlsxtGameplayTags.h"
 #include "Interfaces/AlsxtCharacterInterface.h"
 #include "Kismet/KismetMathLibrary.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtCharacterMovementComponent)
 
 void UAlsxtCharacterMovementComponent::BeginPlay()
 {

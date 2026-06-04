@@ -1,6 +1,7 @@
 // MIT
 
 #include "AbilitySystem/Data/AlsxtAbilitySystemData.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAbilitySystemData)
 
 bool FAlsxtCustomGameplayEffectContext::NetSerialize(FArchive& Ar, class UPackageMap* Map, bool& bOutSuccess)
 {

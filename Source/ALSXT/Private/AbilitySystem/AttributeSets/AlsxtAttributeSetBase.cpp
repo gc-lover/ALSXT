@@ -2,6 +2,7 @@
 
 #include "AbilitySystem/AttributeSets/AlsxtAttributeSetBase.h"
 #include "AbilitySystemComponent.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAttributeSetBase)
 
 void UAlsxtAttributeSetBase::AdjustAttributeForMaxChange(const FGameplayAttribute& AffectedAttribute, const float OldMaxValue, const float NewMaxValue) const
 {

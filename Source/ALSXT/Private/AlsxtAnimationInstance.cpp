@@ -19,6 +19,7 @@
 #include "Utility/AlsUtility.h"
 #include "Utility/AlsVector.h"
 #include "Utility/AlsPrivateMemberAccessor.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAnimationInstance)
 
 ALS_DEFINE_PRIVATE_MEMBER_ACCESSOR(AlsGetAnimationCurvesAccessor, &FAnimInstanceProxy::GetAnimationCurves,
 								   const TMap<FName, float>& (FAnimInstanceProxy::*)(EAnimCurveType) const)

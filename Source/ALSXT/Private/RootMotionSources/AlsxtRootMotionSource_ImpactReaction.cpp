@@ -10,6 +10,7 @@
 #include "Settings/AlsxtImpactReactionSettings.h"
 #include "Utility/AlsMacros.h"
 #include "Interfaces/AlsxtCollisionInterface.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtRootMotionSource_ImpactReaction)
 
 FAlsxtRootMotionSource_ImpactReaction::FAlsxtRootMotionSource_ImpactReaction()
 {

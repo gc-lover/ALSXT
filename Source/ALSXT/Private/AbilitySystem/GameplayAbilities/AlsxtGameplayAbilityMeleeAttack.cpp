@@ -7,6 +7,7 @@
 #include "AbilitySystem/Data/AlsxtMeleeTraceEventData.h"
 #include "Interfaces/AlsxtCharacterInterface.h"
 #include "Notify/AlsxtAnimNotifyState_UCTrace.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityMeleeAttack)
 
 
 UAlsxtGameplayAbilityMeleeAttack::UAlsxtGameplayAbilityMeleeAttack()

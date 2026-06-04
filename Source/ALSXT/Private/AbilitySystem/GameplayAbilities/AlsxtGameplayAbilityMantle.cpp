@@ -2,6 +2,7 @@
 
 
 #include "AbilitySystem/GameplayAbilities/AlsxtGameplayAbilityMantle.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityMantle)
 
 
 UAlsxtGameplayAbilityMantle::UAlsxtGameplayAbilityMantle()

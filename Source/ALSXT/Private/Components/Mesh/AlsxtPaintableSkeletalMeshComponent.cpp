@@ -7,6 +7,7 @@
 #include "Kismet/KismetSystemLibrary.h"
 #include "Kismet/KismetRenderingLibrary.h"
 #include "Utility/AlsLog.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtPaintableSkeletalMeshComponent)
 
 UAlsxtPaintableSkeletalMeshComponent::UAlsxtPaintableSkeletalMeshComponent()
 {

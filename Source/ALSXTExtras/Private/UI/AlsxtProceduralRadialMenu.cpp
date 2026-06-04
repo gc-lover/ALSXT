@@ -6,6 +6,7 @@
 #include "Components/CanvasPanelSlot.h"
 #include "Blueprint/WidgetTree.h"
 #include "Components/Button.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtProceduralRadialMenu)
 
 void UAlsxtRadialMenuOption::NativeConstruct()
 {

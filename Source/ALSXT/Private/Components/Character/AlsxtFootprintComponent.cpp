@@ -5,6 +5,7 @@
 
 #include "Components/TimelineComponent.h"
 #include "Net/UnrealNetwork.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtFootprintComponent)
 
 
 // Sets default values for this component's properties

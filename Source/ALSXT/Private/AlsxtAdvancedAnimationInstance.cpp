@@ -5,6 +5,7 @@
 #include "ALS/Public/Utility/AlsMacros.h"
 #include "AlsxtAdvancedAnimationInstanceProxy.h"
 #include "Interfaces/AlsxtFirearmInterface.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAdvancedAnimationInstance)
 
 UAlsxtAdvancedAnimationInstance::UAlsxtAdvancedAnimationInstance()
 {

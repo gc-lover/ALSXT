@@ -2,6 +2,7 @@
 
 
 #include "AbilitySystem/TargetingFilter/TargetingFilterTask_Interface.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(TargetingFilterTask_Interface)
 
 
 UTargetingFilterTask_Interface::UTargetingFilterTask_Interface(const FObjectInitializer& ObjectInitializer)

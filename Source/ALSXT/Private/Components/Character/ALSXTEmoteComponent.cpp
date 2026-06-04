@@ -2,6 +2,7 @@
 
 #include "Components/Character/AlsxtEmoteComponent.h"
 #include "Net/UnrealNetwork.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSXTEmoteComponent)
 
 
 // Sets default values for this component's properties

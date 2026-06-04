@@ -24,6 +24,7 @@
 #include "Utility/AlsxtCollisionStructs.h"
 #include "Settings/AlsxtDefensiveModeSettings.h"
 #include "Landscape.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSXTImpactReactionComponent)
 
 // Sets default values for this component's properties
 UAlsxtImpactReactionComponent::UAlsxtImpactReactionComponent()

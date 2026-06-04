@@ -1,4 +1,4 @@
-﻿#include "AbilitySystem/GameplayAbilities/AlsxtGameplayAbilityBreathing.h"
+#include "AbilitySystem/GameplayAbilities/AlsxtGameplayAbilityBreathing.h"
 #include "AbilitySystemComponent.h"
 #include "ChooserFunctionLibrary.h"
 #include "AbilitySystemComponent.h"
@@ -8,6 +8,7 @@
 #include "AbilitySystem/AttributeSets/AlsxtBreathAttributeSet.h"
 #include "GameFramework/Character.h"
 #include "AbilitySystem/AttributeSets/AlsxtStaminaAttributeSet.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityBreathing)
 
 UAlsxtGameplayAbilityBreathing::UAlsxtGameplayAbilityBreathing()
 {

@@ -9,8 +9,8 @@
 #include "Utility/AlsGameplayTags.h"
 #include "Utility/AlsVector.h"
 #include "Net/UnrealNetwork.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtPlayerController)
 
-// #include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtPlayerController)
 
 /**
 * @file AlsxtPlayerController.cpp

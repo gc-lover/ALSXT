@@ -1,10 +1,11 @@
-﻿// MIT
+// MIT
 
 
 #include "AlsxtModularGameplayGameModeBase.h"
 #include "GameFramework/PlayerState.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemInterface.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtModularGameplayGameModeBase)
 
 void AAlsxtModularGameplayGameModeBase::OnPostLogin(AController* NewPlayer)
 {

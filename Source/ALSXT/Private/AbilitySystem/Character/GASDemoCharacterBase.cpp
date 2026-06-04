@@ -8,6 +8,7 @@
 #include "GameFramework/PlayerState.h"
 #include "AbilitySystem/AbilitySystemComponent/AlsxtAbilitySystemComponent.h"
 #include "AbilitySystem/AttributeSets/AlsxtMovementAttributeSet.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(GASDemoCharacterBase)
 
 
 AGASDemoCharacterBase::AGASDemoCharacterBase(const FObjectInitializer& ObjectInitializer)

@@ -1,7 +1,8 @@
-﻿// MIT
+// MIT
 
 
 #include "AbilitySystem/Calculations/AlsxtGeecStaminaRegenCooldown.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGeecStaminaRegenCooldown)
 
 UAlsxtGeecStaminaRegenCooldown::UAlsxtGeecStaminaRegenCooldown()
 {

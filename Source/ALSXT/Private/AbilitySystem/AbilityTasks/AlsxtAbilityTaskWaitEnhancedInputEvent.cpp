@@ -2,6 +2,7 @@
 
 
 #include "AbilitySystem/AbilityTasks/AlsxtAbilityTaskWaitEnhancedInputEvent.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAbilityTaskWaitEnhancedInputEvent)
 
 UAlsxtAbilityTaskWaitEnhancedInputEvent* UAlsxtAbilityTaskWaitEnhancedInputEvent::WaitEnhancedInputEvent(UGameplayAbility* OwningAbility, const FName TaskInstanceName, UInputAction* InputAction, const ETriggerEvent TriggerEventType, const bool bShouldOnlyTriggerOnce)
 {

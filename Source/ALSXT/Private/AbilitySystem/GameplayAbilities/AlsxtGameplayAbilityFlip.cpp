@@ -6,6 +6,7 @@
 #include "AlsxtCharacter.h"
 #include "AbilitySystem/AttributeSets/AlsxtStaminaAttributeSet.h"
 #include "GameFramework/Character.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityFlip)
 
 UAlsxtGameplayAbilityFlip::UAlsxtGameplayAbilityFlip()
 {

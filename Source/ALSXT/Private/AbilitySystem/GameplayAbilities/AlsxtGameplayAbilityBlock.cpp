@@ -4,6 +4,7 @@
 #include "AbilitySystem/GameplayAbilities/AlsxtGameplayAbilityBlock.h"
 
 #include "AlsxtCharacter.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityBlock)
 
 
 UAlsxtGameplayAbilityBlock::UAlsxtGameplayAbilityBlock()

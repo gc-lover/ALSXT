@@ -11,6 +11,7 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Utility/AlsUtility.h"
 #include "AbilitySystemComponent.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAnimNotifyState_UCTrace)
 
 UAlsxtAnimNotifyState_UCTrace::UAlsxtAnimNotifyState_UCTrace()
 {

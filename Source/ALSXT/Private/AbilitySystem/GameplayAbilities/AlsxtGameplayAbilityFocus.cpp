@@ -6,6 +6,7 @@
 #include "AlsxtCharacter.h"
 #include "GameplayEffect.h"
 #include "TimerManager.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityFocus)
 
 UAlsxtGameplayAbilityFocus::UAlsxtGameplayAbilityFocus()
 {

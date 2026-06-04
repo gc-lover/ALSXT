@@ -1,9 +1,10 @@
-﻿// MIT
+// MIT
 
 
 #include "AbilitySystem/GameplayAbilities/AlsxtGameplayAbilityExternalCooldowns.h"
 #include "AbilitySystem/AbilitySystemComponent/AlsxtAbilitySystemComponent.h"
 #include "AbilitySystemBlueprintLibrary.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityExternalCooldowns)
 
 void UAlsxtGameplayAbilityExternalCooldowns::ActivateAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo,
 	const FGameplayAbilityActivationInfo ActivationInfo, const FGameplayEventData* TriggerEventData)

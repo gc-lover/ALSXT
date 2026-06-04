@@ -1,7 +1,8 @@
-﻿// MIT
+// MIT
 
 
 #include "AbilitySystem/AbilitySystemComponent/AlsxtOverlayObjectAbilitySystemComponent.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtOverlayObjectAbilitySystemComponent)
 
 
 // Sets default values for this component's properties

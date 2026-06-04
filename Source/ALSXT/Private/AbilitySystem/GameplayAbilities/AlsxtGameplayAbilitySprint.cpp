@@ -7,6 +7,7 @@
 #include "AbilitySystem/AttributeSets/AlsxtStaminaAttributeSet.h"
 #include "GameplayEffect.h"
 #include "TimerManager.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilitySprint)
 
 UAlsxtGameplayAbilitySprint::UAlsxtGameplayAbilitySprint()
 {

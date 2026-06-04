@@ -4,6 +4,7 @@
 #include "AbilitySystem/GameplayAbilities/AlsxtGameplayAbilityTargeting.h"
 
 #include "AbilitySystem/AbilityTasks/AlsxtAbilityTaskPerformTargeting.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityTargeting)
 
 void UAlsxtGameplayAbilityTargeting::ActivateAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilityActivationInfo ActivationInfo, const FGameplayEventData* TriggerEventData)
 {

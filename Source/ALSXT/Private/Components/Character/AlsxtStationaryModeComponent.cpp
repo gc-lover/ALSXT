@@ -2,6 +2,7 @@
 
 
 #include "Components/Character/AlsxtStationaryModeComponent.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtStationaryModeComponent)
 
 // Sets default values for this component's properties
 UAlsxtStationaryModeComponent::UAlsxtStationaryModeComponent()

@@ -8,6 +8,7 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Settings/AlsxtVaultingSettings.h"
 #include "Utility/AlsMacros.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtRootMotionSource_Vaulting)
 
 FAlsxtRootMotionSource_Vaulting::FAlsxtRootMotionSource_Vaulting()
 {

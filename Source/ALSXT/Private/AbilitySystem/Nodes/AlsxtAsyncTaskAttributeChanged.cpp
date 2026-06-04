@@ -2,6 +2,7 @@
 
 
 #include "AbilitySystem/Nodes/AlsxtAsyncTaskAttributeChanged.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAsyncTaskAttributeChanged)
 
 
 UAlsxtAsyncTaskAttributeChanged* UAlsxtAsyncTaskAttributeChanged::ListenForAttributeChange(UAbilitySystemComponent* AbilitySystemComponent, FGameplayAttribute Attribute)

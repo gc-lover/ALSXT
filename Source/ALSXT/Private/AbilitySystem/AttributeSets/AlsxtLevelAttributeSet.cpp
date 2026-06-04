@@ -5,6 +5,7 @@
 #include "GameplayEffectExtension.h"
 #include "AbilitySystem/AbilitySystemComponent/AlsxtAbilitySystemComponent.h"
 #include "Net/UnrealNetwork.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtLevelAttributeSet)
 
 UAlsxtLevelAttributeSet::UAlsxtLevelAttributeSet()
 {

@@ -1,9 +1,10 @@
-﻿// MIT
+// MIT
 
 
 #include "AbilitySystem/GameplayAbilities/AlsxtGameplayAbilityFreelook.h"
 
 #include "Interfaces/AlsxtCharacterInterface.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityFreelook)
 
 void UAlsxtGameplayAbilityFreelook::ActivateAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo,
                                                     const FGameplayAbilityActivationInfo ActivationInfo, const FGameplayEventData* TriggerEventData)

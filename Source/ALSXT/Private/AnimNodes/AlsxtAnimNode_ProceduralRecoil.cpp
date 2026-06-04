@@ -1,10 +1,11 @@
-﻿// MIT
+// MIT
 
 #include "AnimNodes/AlsxtAnimNode_ProceduralRecoil.h"
 #include "Animation/AnimInstanceProxy.h"
 #include "Components/Character/AlsxtProceduralRecoilAnimComponent.h"
 #include "Animation/AnimTrace.h"
 #include "Interfaces/AlsxtCharacterInterface.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAnimNode_ProceduralRecoil)
 
 FTransform FAlsxtAnimNode_RecoilAnimationNode::ComputeRecoilTransform()
 {

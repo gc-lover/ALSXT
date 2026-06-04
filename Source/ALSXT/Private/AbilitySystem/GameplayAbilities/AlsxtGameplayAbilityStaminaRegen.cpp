@@ -7,6 +7,7 @@
 #include "AlsxtCharacterMovementComponent.h"
 #include "AbilitySystem/AttributeSets/AlsxtStaminaAttributeSet.h"
 #include "GameplayEffect.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityStaminaRegen)
 
 UAlsxtGameplayAbilityStaminaRegen::UAlsxtGameplayAbilityStaminaRegen()
 {

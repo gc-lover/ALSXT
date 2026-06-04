@@ -21,6 +21,7 @@
 #include "Utility/AlsMath.h"
 #include "Utility/AlsUtility.h"
 #include "Utility/AlsDebugUtility.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAnimNotify_SlideEffects)
 
 FString UAlsxtAnimNotify_SlideEffects::GetNotifyName_Implementation() const
 {

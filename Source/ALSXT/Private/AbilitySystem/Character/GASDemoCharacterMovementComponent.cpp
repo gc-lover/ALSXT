@@ -5,6 +5,7 @@
 #include "AbilitySystem/FunctionLibrary/AlsxtAbilitySystemBlueprintLibrary.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystem/AttributeSets/AlsxtMovementAttributeSet.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(GASDemoCharacterMovementComponent)
 
 // Sets default values for this component's properties
 UGASDemoCharacterMovementComponent::UGASDemoCharacterMovementComponent()

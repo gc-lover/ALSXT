@@ -2,6 +2,7 @@
 
 #include "Components/Character/AlsxtGestureComponent.h"
 #include "Net/UnrealNetwork.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(ALSXTGestureComponent)
 
 // Sets default values for this component's properties
 UAlsxtGestureComponent::UAlsxtGestureComponent()

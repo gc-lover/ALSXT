@@ -1,7 +1,8 @@
-﻿#include "AbilitySystem/GameplayEffects/AlsxtGameplayEffectHoldBreathCost.h"
+#include "AbilitySystem/GameplayEffects/AlsxtGameplayEffectHoldBreathCost.h"
 
 #include "AbilitySystem/AttributeSets/AlsxtHoldBreathAttributeSet.h"
 #include "AbilitySystem/Calculations/AlsxtGeecHoldingBreathCost.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayEffectHoldBreathCost)
 
 UAlsxtGameplayEffectHoldBreathCost::UAlsxtGameplayEffectHoldBreathCost()
 {

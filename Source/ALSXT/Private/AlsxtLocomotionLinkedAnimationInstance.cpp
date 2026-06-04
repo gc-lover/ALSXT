@@ -3,6 +3,7 @@
 #include "AlsxtLocomotionLinkedAnimationInstance.h"
 
 #include "Settings/AlsxtLocomotionAnimationAssetsSettings.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtLocomotionLinkedAnimationInstance)
 
 UAlsxtLocomotionLinkedAnimationInstance::UAlsxtLocomotionLinkedAnimationInstance()
 {

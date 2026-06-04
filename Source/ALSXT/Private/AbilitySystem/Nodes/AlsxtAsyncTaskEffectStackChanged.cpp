@@ -2,6 +2,7 @@
 
 
 #include "AbilitySystem/Nodes/AlsxtAsyncTaskEffectStackChanged.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAsyncTaskEffectStackChanged)
 
 
 UAlsxtAsyncTaskEffectStackChanged * UAlsxtAsyncTaskEffectStackChanged::ListenForGameplayEffectStackChange(UAbilitySystemComponent * AbilitySystemComponent, FGameplayTag InEffectGameplayTag)

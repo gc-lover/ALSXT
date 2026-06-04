@@ -6,6 +6,7 @@
 #include "EnhancedInputComponent.h"
 #include "Engine/AssetManager.h"
 #include "AbilitySystem/Character/GASDemoCharacterBase.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtGameplayAbilityBase)
 
 #define LOCTEXT_NAMESPACE "GameplayAbility"
 

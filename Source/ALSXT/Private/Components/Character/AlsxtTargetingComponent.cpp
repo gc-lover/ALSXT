@@ -1,7 +1,8 @@
-﻿// MIT
+// MIT
 
 
 #include "Components/Character/AlsxtTargetingComponent.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtTargetingComponent)
 
 
 // Sets default values for this component's properties

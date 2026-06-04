@@ -10,6 +10,7 @@
 #include "Kismet/KismetSystemLibrary.h"
 #include "Misc/MessageDialog.h"
 #include "UObject/SavePackage.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtProceduralRecoilSettingsDataAsset)
 
 void UAlsxtProceduralRecoilSettingsDataAsset::SaveData()
 {

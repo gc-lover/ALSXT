@@ -6,6 +6,7 @@
 #include "AbilitySystem/AttributeSets/AlsxtRecoilAttributeSet.h"
 #include "GameplayEffectExtension.h"
 #include "Net/UnrealNetwork.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtRecoilAttributeSet)
 
 float UAlsxtRecoilAttributeSet::RecoilStrength_BASE = 1.0f; 
 float UAlsxtRecoilAttributeSet::RecoilStrength_MAX = 10.0f;

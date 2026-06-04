@@ -1,4 +1,5 @@
 #include "Settings/AlsxtAdvancedAnimationInstanceSettings.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAdvancedAnimationInstanceSettings)
 
 UAlsxtAdvancedAnimationInstanceSettings::UAlsxtAdvancedAnimationInstanceSettings()
 {

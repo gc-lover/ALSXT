@@ -2,6 +2,7 @@
 
 
 #include "AbilitySystem/Nodes/AlsxtAsyncTaskCooldownChanged.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAsyncTaskCooldownChanged)
 
 
 UAlsxtAsyncTaskCooldownChanged * UAlsxtAsyncTaskCooldownChanged::ListenForCooldownChange(UAbilitySystemComponent * AbilitySystemComponent, FGameplayTagContainer InCooldownTags, bool InUseServerCooldown)

@@ -7,6 +7,7 @@
 #include "AbilitySystem/AbilitySystemComponent/AlsxtAbilitySystemComponent.h"
 #include "Components/Character/AlsxtCharacterCustomizationComponent.h"
 #include "AbilitySystem/AttributeSets/AlsxtMovementAttributeSet.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtPlayerState)
 
 /**
 * @file AlsxtPlayerState.cpp

@@ -1,9 +1,10 @@
-﻿// Copyright (C) 2026 Uriel Ballinas, VOIDWARE Prohibited. All rights reserved.
+// Copyright (C) 2026 Uriel Ballinas, VOIDWARE Prohibited. All rights reserved.
 // This software is licensed under the MIT License (LICENSE.md).
 
 
 #include "AlsxtOverlayObjectActor.h"
 #include "Actors/AlsxtOverlayObjectAttachmentBase.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtOverlayObjectActor)
 
 
 /**

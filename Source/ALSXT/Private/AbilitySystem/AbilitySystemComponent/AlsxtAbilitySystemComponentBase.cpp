@@ -1,4 +1,4 @@
-﻿// MIT
+// MIT
 
 
 #include "AbilitySystem/AbilitySystemComponent/AlsxtAbilitySystemComponentBase.h"
@@ -8,6 +8,7 @@
 #include "AbilitySystem/FunctionLibrary/AlsxtAbilitySystemBlueprintLibrary.h"
 #include "AbilitySystem/Interfaces/AlsxtAbilitySystemInterface.h"
 #include "AbilitySystem/Data/AlsxtAbilitySystemData.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AlsxtAbilitySystemComponentBase)
 
 // Sets default values for this component's properties
 UAlsxtAbilitySystemComponentBase::UAlsxtAbilitySystemComponentBase()
